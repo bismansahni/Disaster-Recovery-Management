@@ -41,6 +41,6 @@ APIs: Access to Twitter API, weather data APIs.
 Risks:
 Potential API limits or outages.
 Challenges in AI/ML model accuracy.
-Assumptions:
+Assumptions for the Project:
 Continuous access to necessary APIs.
 Sufficient Azure credits for deployment.
