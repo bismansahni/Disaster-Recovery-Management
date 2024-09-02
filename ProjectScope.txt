@@ -1,0 +1,46 @@
+Project Scope Document: Disaster Recovery Platform
+1. Project Overview
+Project Name:
+Disaster Recovery Platform
+
+Project Description:
+A cloud-native platform that predicts, monitors, and responds to natural disasters in real-time using AI/ML models, real-time data ingestion, and an automated notification system. The platform will be built with a microservices architecture, using Docker for containerization and Azure Kubernetes Service (AKS) for deployment.
+
+Project Objective:
+Create a scalable platform for real-time disaster prediction and response.
+Integrate AI/ML for accurate predictions.
+Implement a robust notification system for timely alerts.
+2. Project Scope
+In-Scope:
+Data Ingestion Service: Collect real-time data from APIs (e.g., Twitter, weather data).
+AI/ML Service: Train and deploy disaster prediction models.
+Notification Service: Send alerts based on predictions.
+Dashboard: Develop a basic dashboard for data visualization.
+Deployment: Containerize services and deploy on Azure Kubernetes Service (AKS).
+Out-of-Scope:
+Complex user management and third-party integrations.
+Mobile applications.
+3. Deliverables
+Major Deliverables:
+Data ingestion service, AI/ML models, notification service, and a basic dashboard.
+Containerized microservices and deployment on AKS.
+Documentation covering setup and usage.
+4. Project Timeline
+Phases and Milestones:
+Phase 1 (1 week): Set up Azure services and development environment.
+Phase 2 (3 weeks): Develop and test data ingestion and AI/ML services.
+Phase 3 (2 weeks): Build notification service and dashboard.
+Phase 4 (2 weeks): Integration, testing, and deployment on AKS.
+Phase 5 (1 week): Final testing and documentation.
+5. Resources
+Required:
+Cloud Infrastructure: Azure subscription.
+Development Tools: Docker, VSCode, Git, Azure DevOps.
+APIs: Access to Twitter API, weather data APIs.
+6. Risks and Assumptions
+Risks:
+Potential API limits or outages.
+Challenges in AI/ML model accuracy.
+Assumptions:
+Continuous access to necessary APIs.
+Sufficient Azure credits for deployment.
