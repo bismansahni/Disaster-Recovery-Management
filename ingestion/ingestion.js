@@ -19,9 +19,17 @@
 import axios from 'axios';
 import { writeFileSync } from 'fs';
 
-const place="Delhi"
+import dotenv from 'dotenv';
 
-const url = `http://api.weatherapi.com/v1/current.json?key=209a73b018fa4fcb919191527240609&q=${place}&aqi=no`;
+dotenv.config();
+
+const WEATHER_API = process.env.WEATHER_API;
+
+// console.log('WEATHER_API:', WEATHER_API);
+
+const place="London";
+
+const url = `http://api.weatherapi.com/v1/current.json?key=${WEATHER_API}&q=${place}&aqi=no`;
 
 const getWeather = async () => {
     try {
